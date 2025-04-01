@@ -1,0 +1,66 @@
+/* Ensure the html and body occupy the full height of the window */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for home-page */
+.home-page {
+  background: url(./assets/homebg.jpg) no-repeat center center fixed;
+  background-size: cover; /* Ensure background covers the entire screen */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: brightness(1.2);
+  color: #fff;
+  margin: 0;
+}
+
+/* Container for welcome message */
+/* .container {
+  padding: 50px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  max-width: 700px; 
+  text-align: center;
+} */
+
+/* Main header styling */
+h1 {
+  font-size: 3.5rem;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+
+/* Subheading styling */
+h2 {
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+/* Navigation Bar */
+.menu-bar {
+  background-color: #222; /* Darker background */
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.menu-bar a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}

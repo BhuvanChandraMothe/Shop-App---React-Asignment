@@ -1,0 +1,159 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Fruits",
+      "image": "https://img.freepik.com/free-photo/mixed-fruits_74190-5177.jpg?t=st=1743390057~exp=1743393657~hmac=5656b2743544bd1d44f625a176f38660009626c9016b00f0b2f77479dc55819b&w=1380",
+      "products": [
+        {
+          "id": 101,
+          "name": "Apple",
+          "price": 150,
+          "description": "Fresh organic apples sourced from local farms.",
+          "image": "https://img.freepik.com/free-psd/close-up-delicious-apple_23-2151868338.jpg?t=st=1743480255~exp=1743483855~hmac=6c00d7e5a38c297a112a488ae3c7417d2d9b8c1d88576475c2b56b71458d5374&w=740",
+          "stock": 50
+        },
+        {
+          "id": 102,
+          "name": "Banana",
+          "price": 50,
+          "description": "Naturally ripened bananas rich in potassium.",
+          "image": "/src/assets/banana.png",
+          "stock": 100
+        },
+        {
+          "id": 103,
+          "name": "Mango",
+          "price": 120,
+          "description": "Juicy and sweet seasonal mangoes.",
+          "image": "/src/assets/mango.png",
+          "stock": 70
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Vegetables",
+      "image": "https://img.freepik.com/free-vector/set-vegetables-white-background_1308-105493.jpg?t=st=1743479847~exp=1743483447~hmac=6a651cacf4b0503fd9c5866f8a9cf057924d791f4da2fdbb97848bb3d4e427a2&w=1380",
+      "products": [
+        {
+          "id": 201,
+          "name": "Carrot",
+          "price": 200,
+          "description": "Crunchy and sweet organic carrots. For Vitamin A",
+          "image": "https://img.freepik.com/free-psd/vibrant-single-carrot-with-fresh-greens_191095-93988.jpg?t=st=1743480361~exp=1743483961~hmac=9dac8cf79004833749eb93649c9ea38c8d3e0db9c615a5baf1e0a856a078fffd&w=826",
+          "stock": 30
+        },
+        {
+          "id": 202,
+          "name": "Spinach",
+          "price": 30,
+          "description": "Fresh green spinach loaded with nutrients.",
+          "image": "https://img.freepik.com/free-psd/spinach-isolated-transparent-background_191095-27857.jpg?t=st=1743479513~exp=1743483113~hmac=c7799ca7d7a6e42a044556baa13473cfe23f91612f02d8bbcf7e6c056fea6cd5&w=826",
+          "stock": 60
+        },
+        {
+          "id": 203,
+          "name": "Potato",
+          "price": 25,
+          "description": "High-quality farm-grown potatoes.",
+          "image": "/src/assets/potato.png",
+          "stock": 150
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Dairy",
+      "image": "https://img.freepik.com/free-photo/dairy-products-arrangement-top-view_23-2148601729.jpg?t=st=1743389796~exp=1743393396~hmac=4bb76822468a4ccfc443599b66eb7f773da143d2be9c537d9624f2a32211d8f9&w=1380",
+      "products": [
+        {
+          "id": 301,
+          "name": "Milk",
+          "price": 60,
+          "description": "Pure and fresh cow milk, high in protein.",
+          "image": "https://img.freepik.com/free-vector/drink-ad-milk-company_52683-35014.jpg?t=st=1743480103~exp=1743483703~hmac=b461bfc2d0fa2d404483adad7533341c1df4d251ee2962d97a976b7cac08c25c&w=826",
+          "stock": 40
+        },
+        {
+          "id": 302,
+          "name": "Cheese",
+          "price": 250,
+          "description": "Organic cheese made from farm-fresh milk.",
+          "image": "https://img.freepik.com/free-vector/simple-cheese-isolated-cartoon_1308-124064.jpg?t=st=1743480051~exp=1743483651~hmac=0743dfc4cf4dc05185ad4af797efb0ef951a2d9d719bea7644a2975483f8e352&w=996",
+          "stock": 30
+        },
+        {
+          "id": 303,
+          "name": "Butter",
+          "price": 200,
+          "description": "Rich and creamy butter, perfect for cooking.",
+          "image": "https://img.freepik.com/free-vector/realistic-yellow-stick-butter-cutting-board-with-metal-knife_1441-2016.jpg?t=st=1743480078~exp=1743483678~hmac=ff0854b5e5ddc5b44c3d71e86086f559924241fc6d28f89b3d5b03a5fcd12eb7&w=1380",
+          "stock": 25
+        },
+        {
+          "id": 1743480302025,
+          "name": "Ghee",
+          "price": 500,
+          "description": "Pure Ghee",
+          "image": "https://img.freepik.com/free-psd/golden-yellow-ghee-wooden-bowl-delicious-indian-cuisine_84443-43565.jpg?t=st=1743480120~exp=1743483720~hmac=1c8d5967effbc95fd701535b10b2d05100743c704ef54cf96a50b19fd4ebdc7f&w=826",
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Grains",
+      "image": "https://img.freepik.com/free-photo/view-allergens-commonly-found-grains_23-2150170288.jpg?t=st=1743389713~exp=1743393313~hmac=b121e9329f4924a1153c1abbc85ab4c8efc98b39164c1e1053f49fd6158c8dcf&w=1380",
+      "products": [
+        {
+          "id": 401,
+          "name": "Wheat",
+          "price": 35,
+          "description": "High-quality whole wheat grains.",
+          "image": "https://img.freepik.com/free-psd/golden-wheat-stalks-symbol-harvest-abundance_632498-24791.jpg?t=st=1743479978~exp=1743483578~hmac=5cf58b368896a47c627a3b96feed735ca2d53c6abe949875a9fc44396cb45af2&w=826",
+          "stock": 200
+        },
+        {
+          "id": 402,
+          "name": "Rice",
+          "price": 60,
+          "description": "Premium basmati rice with a rich aroma.",
+          "image": "/src/assets/rice.png",
+          "stock": 150
+        },
+        {
+          "id": 403,
+          "name": "Oats",
+          "price": 80,
+          "description": "Nutritious and fiber-rich organic oats.",
+          "image": "/src/assets/oats.png",
+          "stock": 100
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Beverages",
+      "image": "https://img.freepik.com/free-photo/fruit-juices-glasses-black-background_123827-20588.jpg?w=1380",
+      "products": [
+        {
+          "id": 501,
+          "name": "Orange Juice",
+          "price": 120,
+          "description": "Freshly squeezed orange juice with no preservatives.",
+          "image": "https://img.freepik.com/free-vector/realistic-orange-splash-fruit_52683-65283.jpg?t=st=1743479922~exp=1743483522~hmac=c43778971a1813796f1744546620bdabfc658b7a3ff90b177837383fcfadf01d&w=826",
+          "stock": 50
+        },
+        {
+          "id": 502,
+          "name": "Green Tea",
+          "price": 90,
+          "description": "Organic green tea for a refreshing experience.",
+          "image": "https://img.freepik.com/free-photo/leaf-plate-wood-object-healthy-eating_1172-451.jpg?t=st=1743479892~exp=1743483492~hmac=07c6e5dc77859b2f9d4cc69f29729856897f3d4a9b05c77da79f40f6f118d083&w=826",
+          "stock": 80
+        }
+      ]
+    }
+  ]
+}
